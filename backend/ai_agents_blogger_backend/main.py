@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.blogger import BloggerCrew
+from ai_agents_blogger_backend.blogger import BloggerCrew
 
 app = FastAPI()
 

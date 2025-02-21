@@ -16,10 +16,10 @@ dependencies = [
 
 
 # Packages to include in your distribution
-#[tool.poetry]
-#packages = [
-#  { include = "src"}
-#]
+[tool.poetry]
+packages = [
+  { include = "ai_agents_blogger_backend", from = "." }
+]
 
 [build-system]
 requires = ["poetry-core>=1.5.1"]
