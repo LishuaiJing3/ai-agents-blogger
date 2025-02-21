@@ -1,0 +1,21 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "lishuai.jing@gmail.com",email = "lishuai.jing@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "fastapi (>=0.115.8,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "google-generativeai (>=0.8.4,<0.9.0)",
+    "crewai (>=0.102.0,<0.103.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
