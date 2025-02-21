@@ -1,5 +1,5 @@
 [project]
-name = "ai-agents-blogger-backend"
+name = "ai_agents_blogger_backend"
 version = "0.1.0"
 description = "backend API for AI Agents Blogger"
 authors = [
