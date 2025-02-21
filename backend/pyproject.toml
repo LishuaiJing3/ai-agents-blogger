@@ -1,11 +1,10 @@
 [project]
 name = "ai-agents-blogger-backend"
 version = "0.1.0"
-description = ""
+description = "backend API for AI Agents Blogger"
 authors = [
     {name = "lishuai.jing@gmail.com",email = "lishuai.jing@gmail.com"}
 ]
-readme = "README.md"
 requires-python = ">=3.11,<3.13"
 dependencies = [
     "fastapi (>=0.115.8,<0.116.0)",
