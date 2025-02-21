@@ -16,11 +16,10 @@ dependencies = [
 
 
 # Packages to include in your distribution
-[tool.poetry]
-packages = [
-  { include = "main", from = "." },
-  { include = "blogger", from = "." }
-]
+#[tool.poetry]
+#packages = [
+#  { include = "src"}
+#]
 
 [build-system]
 requires = ["poetry-core>=1.5.1"]
