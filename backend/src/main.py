@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from blogger import BloggerCrew
+from src.blogger import BloggerCrew
 
 app = FastAPI()
 
