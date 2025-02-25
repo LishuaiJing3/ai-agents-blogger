@@ -17,7 +17,7 @@ dependencies = [
 
 # Packages to include in your distribution
 [tool.poetry]
-packages = [
+package
   { include = "src", from = "." }
 ]
 

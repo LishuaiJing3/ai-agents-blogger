@@ -135,3 +135,28 @@ __pycache__/
 .env
 *.pyc
 .pytest_cache/
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
